@@ -79,7 +79,7 @@ const Searchbar = observer(() => {
                   type="text" 
                   onChange={(e) => store.keyword = e.target.value}
                   value={store.keyword}
-                  id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full ps-12 p-4  text-lg" placeholder="Search..." required />
+                  id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full ps-12 p-4" placeholder="Search..." required />
             </div>
         </form>
       </div>

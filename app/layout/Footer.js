@@ -66,7 +66,7 @@ const IconPoke =()=>
 
 
 const NavItem = ({ href = "/", children }) =>
-  <LinkActive href={href} className="menu-item flex-1 flex justify-center items-center flex flex-col text-gray-600 gap-0.5 text-center border-b-2 transition transition-all hover:bg-blue-50" activeClassName="text-blue-600  border-b-blue-400 bg-blue-100" inactiveClassName="border-b-white">
+  <LinkActive href={href} className="menu-item flex-1 flex justify-center items-center flex-col text-gray-600 gap-0.5 text-center border-b-2 transition-all hover:bg-blue-50" activeClassName="text-blue-600  border-b-blue-400 bg-blue-100" inactiveClassName="border-b-white">
     {children}
   </LinkActive>
 
